@@ -14,6 +14,12 @@ int printColorMap() {
 }
 
 int main() {
+    /*
+    To test this function we would need to be able to pass a pair of colors to the function and receive the pair's number.
+    That way we could do something like the following:
+
+    assert(printColorMap("White", "Orange") == 2);
+    */
     int result = printColorMap();
     assert(result == 25);
     printf("All is well (maybe!)\n");
